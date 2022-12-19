@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #786aff;
+}
+
+.searchBar {
+  background-color: white;
+  padding: 20px;
+  width: 500px;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+}
+
+input {
+  width: 100%;
+  height: 30px;
+}
+
+p {
+  margin-left: 5px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  white-space: pre;
+}

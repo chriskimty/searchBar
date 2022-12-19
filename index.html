@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section class="searchBar">
+            <form action="submit" class="courseSearchForm">
+                <label for="course" class="sr-only">Course Search</label>
+                <input type="text" name="course" id="course" placeholder='Try "Javascript"' required />
+                <p>🔎</p>
+            </form>
+            <div class="courseListSuggestions">
+                <ul>
+                    <!--<li> of courses will be appended into the ul via JS  -->
+                </ul>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
